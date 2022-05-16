@@ -19,7 +19,8 @@ namespace PruebaEx16
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label_baix.Text = textBox.Text;
+           label_dalt.Text = "Estic en la rama de dalt";
+            label_baix.Text = "Estic en la rama de baix";
         }
     }
 }

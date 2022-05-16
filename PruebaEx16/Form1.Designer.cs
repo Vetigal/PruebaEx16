@@ -41,6 +41,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "Clica\'m";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox
             // 
@@ -48,7 +49,7 @@
             this.textBox.Name = "textBox";
             this.textBox.Size = new System.Drawing.Size(187, 22);
             this.textBox.TabIndex = 1;
-            this.textBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+          
             // 
             // label_clica
             // 

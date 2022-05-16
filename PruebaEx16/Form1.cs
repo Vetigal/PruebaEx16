@@ -19,7 +19,7 @@ namespace PruebaEx16
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label_clica.Text = textBox.Text;
+            label_baix.Text = textBox.Text;
         }
     }
 }
